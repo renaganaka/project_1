@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #667085;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+section,
+header,
+footer  {
+    padding: 0 200px;
+    @media (max-width: 1919px) {
+        padding: 0 80px;
+    }
+    @media (max-width: 959px) {
+        padding: 0 60px;
+    }
+    @media (max-width: 759px) {
+        padding: 0 40px;
+    }
+    @media (max-width: 479px) {
+        padding: 0 30px;
+    }
+}
+
+button {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btnH60 {
+    height: 60px;
+    border-radius: 8px;
+    @media (max-width: 759px) {
+        height: 44px;
+        font-size: 16px;
+    }
+}
+
+.btn-white {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #D0D5DD;
+    background-color: #ffffff;
+    min-width: 141px;
+    color: #344054;
+    font-size: 18px;
+    .btnIcon {
+        background-image: url("../images/play-icon.svg");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+    }
+    @media (max-width: 759px) {
+        font-size: 16px;
+    }
+}
+
+.btn-purple {
+    border: 1px solid #7F56D9;
+    background-color: #7F56D9;
+    min-width: 121px;
+    color: #FFFFFF;
+    font-size: 18px;
+    @media (max-width: 759px) {
+        font-size: 16px;
+    }
+}
+
+h2,
+h3 {
+    font-weight: 600;
+}
+
+.btnH44{
+    border-radius: 8px;
+    border: 1px solid #7F56D9;
+    background-color: #7F56D9;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 18px;
+}
+
+.btnH48 {
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.white {
+    max-width: 116px;
+    color: #344054;
+    background-color: #fff;
+    border: 1px solid #D0D5DD;
+    margin-bottom: 24px;
+}
+
+.purple {
+    background-color: #7F56D9;
+    border: 1px solid #7F56D9;
+    color: #ffffff;
+}
